@@ -38,13 +38,13 @@ Lancement de l'application sur android
 react-native run-android
 ```
 
-## Construit avec
-
-* [React-Native](https://facebook.github.io/react-native/)
-
 ## Captures d'écrans
 
 ![Screenshot](screenshots/screen.png)
+
+## Construit avec
+
+* [React-Native](https://facebook.github.io/react-native/)
 
 
 ## Auteurs
