@@ -134,7 +134,7 @@ export class TransactionNew extends Component {
                     </Header>}
                 textStyle={{ color: 'white', fontFamily: 'Avenir', fontWeight: '300' }}
                 mode="dropdown"
-                style={{ height: "33%", width: "100%" }}
+                style={{ height: "33%", width: "100%", color: "white" }}
                 selectedValue={this.state.active}
                 onValueChange={this.onValueChange.bind(this)}
             >
@@ -167,7 +167,7 @@ export class TransactionNew extends Component {
                     </Header>}
                 textStyle={{ color: 'white', fontFamily: 'Avenir', fontWeight: '300' }}
                 mode="dropdown"
-                style={{ height: "33%", width: "100%" }}
+                style={{ height: "33%", width: "100%", color: "white" }}
                 selectedValue={this.state.transfert}
                 onValueChange={this.onValueChange3.bind(this)}
             >
@@ -199,7 +199,7 @@ export class TransactionNew extends Component {
                 </Header>}
             textStyle={{ color: 'white', fontFamily: 'Avenir', fontWeight: '300' }}
             mode="dropdown"
-            style={{ height: "33%", width: "100%" }}
+            style={{ height: "33%", width: "100%", color: "white" }}
             selectedValue={this.state.recordCategory}
             onValueChange={this.onValueChange2.bind(this)}
         >
@@ -276,7 +276,7 @@ export class TransactionNew extends Component {
     render() {
         return (
             <Container style={{ backgroundColor: 'rgb(44, 44, 44)' }}>
-                <Header style={{ borderBottomWidth: 0, backgroundColor: 'rgb(44, 44, 44)' }}>
+                <Header style={{ borderBottomWidth: 0, backgroundColor: 'rgb(44, 44, 44)', elevation: 0 }}>
                     <Left style={{ padding: 6, flex: 1 }}>
                         <Icon style={{ padding: 6, color: 'white', fontSize: 30 }} onPress={() => this.props.navigation.navigate('List')} name='ios-arrow-back' />
                     </Left>
@@ -433,7 +433,8 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     tabbar: {
-        backgroundColor: 'rgb(44, 44, 44)'
+        backgroundColor: 'rgb(44, 44, 44)',
+        elevation: 0
     },
     tab: {
         padding: 3,

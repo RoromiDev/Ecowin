@@ -57,7 +57,7 @@ export class AccountAdd extends Component {
     render() {
         return (
             <Container style={{ backgroundColor: 'rgb(44, 44, 44)' }}>
-                <Header style={{ borderBottomWidth: 0, backgroundColor: 'rgb(44, 44, 44)' }}>
+                <Header style={{ borderBottomWidth: 0, backgroundColor: 'rgb(44, 44, 44)', elevation: 0 }}>
                     <Left style={{ padding: 6, flex: 1 }}>
                         <Icon style={{ padding: 6, color: 'white', fontSize: 30 }} onPress={() => this.goBack()} name='ios-arrow-back' />
                     </Left>
@@ -76,14 +76,18 @@ export class AccountAdd extends Component {
                                 <TextInput {...this.props} // Inherit any props passed to it; e.g., multiline, numberOfLines below
                                     maxLength={50}
                                     returnKeyType='done'
-                                    onChangeText={(text) => this.setState({ name: text })} style={{ fontSize: 16, color: 'black', fontFamily: 'Avenir', fontWeight: '300', height: 30, paddingLeft: 5 }} />
+                                    autoCorrect={false}
+                                    underlineColorAndroid='transparent'
+                                    onChangeText={(text) => this.setState({ name: text })} style={{ fontSize: 16, color: 'black', fontFamily: 'Avenir', fontWeight: '300', height: 30, paddingLeft: 5, paddingTop: 0, paddingBottom: 0 }} />
                             </View>
                             :
                             <View style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)', height: 30, borderRadius: 15, margin: 5, paddingLeft: 5, borderColor: '#ef5350', borderWidth: 1 }}>
                                 <TextInput {...this.props} // Inherit any props passed to it; e.g., multiline, numberOfLines below
                                     maxLength={50}
+                                    autoCorrect={false}
                                     returnKeyType='done'
-                                    onChangeText={(text) => this.setState({ name: text })} style={{ fontSize: 16, color: 'black', fontFamily: 'Avenir', fontWeight: '300', height: 30, paddingLeft: 5 }} />
+                                    underlineColorAndroid='transparent'
+                                    onChangeText={(text) => this.setState({ name: text })} style={{ fontSize: 16, color: 'black', fontFamily: 'Avenir', fontWeight: '300', height: 30, paddingLeft: 5, paddingTop: 0, paddingBottom: 0 }} />
                             </View>
                         }
                         <Text style={{ fontSize: 17, color: 'black', padding: 5, fontFamily: 'Avenir', fontWeight: '300', marginTop: 5, marginLeft: 5 }} >MONTANT</Text>
@@ -91,19 +95,23 @@ export class AccountAdd extends Component {
                             <View style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)', height: 30, borderRadius: 15, margin: 5, paddingLeft: 5, borderColor: '#66bb6a', borderWidth: 1 }}>
                                 <TextInput {...this.props} // Inherit any props passed to it; e.g., multiline, numberOfLines below
                                     maxLength={12}
+                                    autoCorrect={false}
                                     returnKeyType='done'
                                     keyboardType='numbers-and-punctuation'
+                                    underlineColorAndroid='transparent'
                                     value={this.state.total}
-                                    onChangeText={(text) => this.onChangeNumber(text)} style={{ fontSize: 16, color: 'black', fontFamily: 'Avenir', fontWeight: '300', height: 30, paddingLeft: 5 }} />
+                                    onChangeText={(text) => this.onChangeNumber(text)} style={{ fontSize: 16, color: 'black', fontFamily: 'Avenir', fontWeight: '300', height: 30, paddingLeft: 5, paddingTop: 0, paddingBottom: 0 }} />
                             </View>
                             :
                             <View style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)', height: 30, borderRadius: 15, margin: 5, paddingLeft: 5, borderColor: '#ef5350', borderWidth: 1 }}>
                                 <TextInput {...this.props} // Inherit any props passed to it; e.g., multiline, numberOfLines below
                                     maxLength={12}
+                                    autoCorrect={false}
                                     returnKeyType='done'
                                     keyboardType='numbers-and-punctuation'
+                                    underlineColorAndroid='transparent'
                                     value={this.state.total}
-                                    onChangeText={(text) => this.onChangeNumber(text)} style={{ fontSize: 16, color: 'black', fontFamily: 'Avenir', fontWeight: '300', height: 30, paddingLeft: 5 }} />
+                                    onChangeText={(text) => this.onChangeNumber(text)} style={{ fontSize: 16, color: 'black', fontFamily: 'Avenir', fontWeight: '300', height: 30, paddingLeft: 5, paddingTop: 0, paddingBottom: 0 }} />
                             </View>
                         }
                     </View>

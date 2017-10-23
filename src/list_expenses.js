@@ -124,7 +124,7 @@ export class ListExpenses extends Component {
     render() {
         return (
             <Container style={{ backgroundColor: 'rgb(248, 248, 248)' }}>
-                <Header style={{ borderBottomWidth: 0, backgroundColor: 'rgb(44, 44, 44)' }}>
+                <Header style={{ borderBottomWidth: 0, backgroundColor: 'rgb(44, 44, 44)', elevation: 0 }}>
                     <Left style={{ padding: 6, flex: 1 }}>
                         <Icon style={{ padding: 6, color: 'white', fontSize: 30 }} onPress={() => this.goBack()} name='ios-arrow-back' />
                     </Left>
@@ -147,6 +147,7 @@ const styles = StyleSheet.create({
     },
     tabbar: {
         backgroundColor: 'rgb(44, 44, 44)',
+        elevation: 0
     },
     tab: {
         padding: 3,

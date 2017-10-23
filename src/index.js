@@ -203,6 +203,7 @@ const styles = StyleSheet.create({
   },
   tabbar: {
     backgroundColor: 'rgb(44, 44, 44)',
+    elevation: 0
   },
   tab: {
     padding: 3,
@@ -262,7 +263,8 @@ const styles = StyleSheet.create({
   },
   header: {
     borderBottomWidth: 0,
-    backgroundColor: 'rgb(44, 44, 44)'
+    backgroundColor: 'rgb(44, 44, 44)',
+    elevation: 0
   },
   headerTitle: {
     color: 'white',

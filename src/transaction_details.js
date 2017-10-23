@@ -223,7 +223,7 @@ export class TransactionDetails extends Component {
   render() {
     return (
       <Container style={{ backgroundColor: 'rgb(248, 248, 248)' }}>
-        <Header style={{ borderBottomWidth: 0, backgroundColor: 'rgb(44, 44, 44)' }}>
+        <Header style={{ borderBottomWidth: 0, backgroundColor: 'rgb(44, 44, 44)', elevation: 0 }}>
           <Left style={{ padding: 6, flex: 1 }}>
             <Icon style={{ padding: 6, color: 'white', fontSize: 30 }} onPress={() => this.goBack()} name='ios-arrow-back' />
           </Left>
@@ -269,7 +269,8 @@ export class TransactionDetails extends Component {
                       onFocus={this.textInputFocused.bind(this)}
                       maxLength={50}
                       returnKeyType='done'
-                      onChangeText={(text) => this.changeNote(text)} style={{ fontSize: 15, padding: 5, fontFamily: 'Avenir', fontWeight: '300', marginLeft: 10, height: '100%', textAlign: 'center' }} value={this.state.transaction.note} />
+                      underlineColorAndroid='transparent'
+                      onChangeText={(text) => this.changeNote(text)} style={{ fontSize: 15, padding: 5, fontFamily: 'Avenir', fontWeight: '300', marginLeft: 10, height: '100%', textAlign: 'center', paddingTop: 0, paddingBottom: 0 }} value={this.state.transaction.note} />
                   </View>
                 </View>
                 <View style={{ backgroundColor: 'white', padding: 4 }}>
