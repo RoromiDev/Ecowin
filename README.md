@@ -13,6 +13,8 @@ De quoi avez-vous besoin pour installer le logiciel et comment l'installer ?
 ```
 npm
 react-native
+android studio
+xcode (iOS)
 ```
 
 ### Installation
