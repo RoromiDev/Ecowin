@@ -44,9 +44,8 @@ react-native run-android
 
 ## Captures d'écrans
 
-![Screenshot](screenshots/screen1.png)
-![Screenshot](screenshots/screen2.png)
-![Screenshot](screenshots/screen3.png)
+![Screenshot](screenshots/screen.png)
+
 
 ## Auteurs
 
