@@ -1,7 +1,2 @@
 dependencies: \
-  /Users/romain/Documents/Projets/Budget/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.c \
-  /Users/romain/Documents/Projets/Budget/node_modules/react-native/ReactCommon/yoga/yoga/YGNodeList.h \
-  /Users/romain/Documents/Projets/Budget/node_modules/react-native/ReactCommon/yoga/yoga/YGMacros.h \
-  /Users/romain/Documents/Projets/Budget/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.h \
-  /Users/romain/Documents/Projets/Budget/node_modules/react-native/ReactCommon/yoga/yoga/YGEnums.h \
-  /Users/romain/Documents/Projets/Budget/node_modules/react-native/ReactCommon/yoga/yoga/Yoga-internal.h
+  /Users/romain/Documents/Projets/Ecowin/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.c

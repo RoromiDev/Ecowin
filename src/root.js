@@ -10,7 +10,7 @@ import { ListExpenses } from './list_expenses'
 import { ListIncomes } from './list_incomes'
 import { TransactionDetails } from './transaction_details'
 import Global from './global'
-import CardStackStyleInterpolator from 'react-navigation/src/views/CardStackStyleInterpolator'
+import CardStackStyleInterpolator from 'react-navigation/src/views/CardStack/CardStackStyleInterpolator'
 
 const Router = StackNavigator({
     Home: {
