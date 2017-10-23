@@ -21,7 +21,7 @@ xcode (iOS)
 
 Voici comment lancer le projet sur votre ordinateur:
 
-Cloner et se placer dans le répertoire Ecowin
+Cloner et se placer dans le répertoire ReactNative-Ecowin
 
 Installation des dépendences
 ```
