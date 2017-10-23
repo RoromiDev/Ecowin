@@ -13,6 +13,8 @@ De quoi avez-vous besoin pour installer le logiciel et comment l'installer ?
 ```
 npm
 react-native
+android studio
+xcode (iOS)
 ```
 
 ### Installation
@@ -38,15 +40,14 @@ Lancement de l'application sur android
 react-native run-android
 ```
 
+## Captures d'écrans
+
+![Screenshot](screenshots/screen.png)
+
 ## Construit avec
 
 * [React-Native](https://facebook.github.io/react-native/)
 
-## Captures d'écrans
-
-![Screenshot](screenshots/screen1.png)
-![Screenshot](screenshots/screen2.png)
-![Screenshot](screenshots/screen3.png)
 
 ## Auteurs
 
